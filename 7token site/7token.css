@@ -1,0 +1,148 @@
+html,body{
+
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  line-height:;
+  /*opacity: 0.5;*/
+
+}
+
+h1{
+  color: orange;
+  font-size: 40px;
+}
+
+
+
+header{
+
+  background-color: #113B58;
+  height: 65%;
+  background-image: url(home-azul2.jpg);
+  min-height: 500px;
+
+  /*background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;*/
+
+  /*parallx*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+
+
+.navbar2{
+ color: blue;
+}
+
+.banner-top{
+
+color: white;
+}
+
+.banner-texto{
+
+color: white;
+margin-top: 60px;
+text-align: center;
+}
+
+.banner-texto .links a{
+  display: inline-block;
+
+}
+.banner-texto .links a img{
+ width: 170px;
+
+}
+
+
+.banner-top .cel img{
+width: 220px;
+margin-bottom: 10px;
+
+}
+
+.main{
+
+  max-width: 900px;
+  margin-top: 40px;
+
+}
+
+
+.icones-texto hr{
+  border: 1px solid;
+  width: 20%;
+  color: #26C6DA;
+  margin-bottom: 60px;
+
+}
+
+.card{
+
+padding: 10px 30px;
+border-radius: 10px;*/
+background: ;
+margin-bottom: 25px;
+border: 1px solid #ffbb93;
+
+/*box-shadow: 1px 2px 4px #BDBDBD;*/
+
+}
+.card i{
+
+padding: 5px 5px;
+
+
+/*box-shadow: 1px 2px 4px #BDBDBD;*/
+
+}
+
+footer {
+   background: #113B58;
+   height: 10%;
+   margin-top: 40px;
+
+
+}
+
+
+/**## MEDIAS QUERIES ##**/
+
+
+
+@media(min-width: 768px) {
+
+
+.main{
+
+  margin-top: 40px;
+
+}
+
+.banner-texto{
+text-align: left;
+color: white;
+margin-top: 60px;
+
+}
+
+@media(min-width: 900px) {
+
+
+}
+
+@media(min-width: 992px) {
+
+
+}
